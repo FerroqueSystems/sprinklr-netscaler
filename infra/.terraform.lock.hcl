@@ -1,6 +1,27 @@
 # This file is maintained automatically by "terraform init".
 # Manual edits may be lost in future updates.
 
+provider "registry.terraform.io/citrix/citrixadc" {
+  version = "2.1.0"
+  hashes = [
+    "h1:4H177nkSH/GhMUWdNs0rail2sKnNv6EnJCtd5keZWpA=",
+    "zh:0909b1c75d47ac9327e26eb0db1bf52aaa718ab75960d2a3dd99d37c04ca582a",
+    "zh:3a61be0f7bb4d6e503dba478d91cedabef27e41fcc1f00d641d054e1b501583f",
+    "zh:457e66276d147762a38aca2512d310d30743306200364563316adee7fefe9874",
+    "zh:62c60d47c574895a65afa9d7e529442e402fde6fab05d3423efb186cc04d1d5a",
+    "zh:63d628bc484d1dc98c345da5e95eca6bac8b41c56345964c2810de3b9b5245e6",
+    "zh:79843b7d4d2a7e9be42c36df0d24b8b10ef1ffb16568bc2884d4d59bf30d79fd",
+    "zh:860eb43d213ab1b1722b01540ac18ae0ec43f1ef3b0a5ecbac580a82a160a8c6",
+    "zh:876ff50c1671994a6b9ce630c5aabbbd03a9943d8d1e059916a4548ce46e5d74",
+    "zh:8cc4cab563ff88690b5070334fb37ed956a3a4039f34b5af6224a708a00bfec7",
+    "zh:adb2b5b9a4917f0c526a4b3966c75ccf93b75d9479a7898c1d0bd0aff1ea2bb8",
+    "zh:cdbbe639ef9bda85c2c4b1098b9eb26d5cfe1ae76b8bb2c2919345232c278d79",
+    "zh:d6793706348761eb249087fed3eb0ce989a33da439dba1498b679d4dd02562cd",
+    "zh:f2c37048e47df4044f08e994beeecaadfa5efae76f95e32b61dca7e6d1225536",
+    "zh:fab6d73c3709a2a329b17d0ec68f6a75dac703ebf144f7241a835321e4cc1e7d",
+  ]
+}
+
 provider "registry.terraform.io/hashicorp/azurerm" {
   version = "4.57.0"
   hashes = [

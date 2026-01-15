@@ -43,3 +43,7 @@ variable "adc_admin_username" {
 variable "adc_admin_password" {
   description = "Password for the Citrix ADC admin user. Must be sufficiently complex to pass azurerm provider checks."
 }
+variable "public_nsip" {
+  type        = string
+  description = "Public IP address of the NetScaler management interface."
+}
