@@ -1,7 +1,5 @@
 The following resources are not supported by our terraform provider citrixADC yet:
 
-appfwgrpccontenttype
-appfwgrpcwebtextcontenttype
-appfwgrpcwebjsoncontenttype
+cloudparameter
+dpsparameter
 videooptimizationparameter
-tmglobal_tmsessionpolicy_binding
