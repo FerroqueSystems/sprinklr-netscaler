@@ -249,7 +249,7 @@ resource "azurerm_virtual_machine" "terraform-adc-machine" {
   primary_network_interface_id = azurerm_network_interface.terraform-adc-management-interface.id
 
   os_profile {
-    computer_name  = "CTX-NSGW-VPX01"
+    computer_name  = "EUS-NSGW-VPX01"
     admin_username = var.adc_admin_username
     admin_password = var.adc_admin_password
     custom_data = jsonencode({
@@ -279,15 +279,15 @@ resource "azurerm_virtual_machine" "terraform-adc-machine" {
 
   storage_image_reference {
     publisher = "citrix"
-    offer     = "netscalervpx-14"
-    sku       = "netscalervpx_byol"
-    version   = "14.1.11.10"
+    offer     = "netscalervpx-141"
+    sku       = "netscalerbyol"
+    version   = "latest"
   }
 
   plan {
-    name      = "netscalervpx_byol"
+    name      = "netscalerbyol"
     publisher = "citrix"
-    product   = "netscalervpx-14"
+    product   = "netscalervpx-141"
   }
 
   depends_on = [

@@ -26,7 +26,7 @@ variable "controlling_subnet" {
 }
 variable "ubuntu_vm_size" {
   description = "Size for the ubuntu machine."
-  default     = "Standard_A1_v2"
+  default     = "Standard_B1ms"
 }
 variable "ssh_public_key" {
   type        = string
